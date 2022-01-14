@@ -19,32 +19,30 @@ height: 100vh;
 main {
   display: grid;
   grid-template-columns: 30% 70%;
-  grid-template-rows: 1fr 1fr 2fr;
-  width: 500pt; 
-  height: 550pt;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "image toptxt"
+  "left right";
+  width: 550pt; 
+  height: 600pt;
   margin: auto;
   grid-column-gap: 7pt;
   grid-row-gap: 2pt;
   justify-content: space-evenly;
   font-family: 'Press Start 2P', cursive;
   font-size: 12px;
-  
+  grid-area: main;
+
 }
 
 .toptext {
-  grid-column: 2/3;
-  grid-row: 1/2;
+  
   color: rgb(0, 0, 0);
   justify-content: center;
   align-items: center;
+  grid-area: toptxt;
 }
 
-.bottontext {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  margin-top: -15pt;
-  color: rgb(185, 0, 0);
-}
 
 h1 {color: rgb(0, 0, 0);
   text-align: left;
@@ -52,7 +50,8 @@ h1 {color: rgb(0, 0, 0);
 }
 
 h2 {
-  margin-top: -10px;
+  margin-top: 70px;
+  color: rgb(185,0,0);
 }
 h3 {
   color: white;
@@ -73,6 +72,35 @@ p
   text-decoration: none;
 }
 
+
+.left
+{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 1px;
+  margin-top: 12pt;
+  margin-left: 2pt;
+  font-size: 10px;
+  grid-area: left;
+
+}
+
+.rightcolumn
+{
+  background-color: rgb(0, 0, 0);
+  width: auto;
+  margin: 1pt;
+  text-align: Left;
+  padding-top: 5pt;
+  padding-left: 10pt;
+  margin-top: 12pt;
+  grid-area: right;
+}
+image {
+  grid-area: image;
+
+}
 img {
   max-width: 200px;
   grid-column: 1/2;
@@ -98,35 +126,22 @@ img {
   box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6);
  
 }
-.left
-{
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-  grid-column: 1/2;
-  grid-row: 2/3;
-  text-align: center;
-  padding-top: 1px;
-  margin-top: 12pt;
-  margin-left: 2pt;
-  font-size: 10px;
-
-}
-
-.rightcolumn
-{
-  background-color: rgb(0, 0, 0);
-  grid-column: 2/3;
-  grid-row: 2/3;
-  width: auto;
-  margin: 1pt;
-  text-align: Left;
-  padding-top: 5pt;
-  padding-left: 10pt;
-  margin-top: 12pt;
-}
 
 element {
  line-height: 1;
 }
 
-
+@media (max-width: 600px) {
+  main {
+    display: grid;
+    
+   
+   grid-template-rows: 1fr ;
+   grid-template-areas:
+     "image"
+     "toptxt"
+     "right"
+     "left"
+     }
+  
+}
