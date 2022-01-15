@@ -117,8 +117,9 @@ img {
  
 }
 
-element {
- line-height: 1;
+.rightcolumn  hr {
+  border-width: 1px;
+  width: 50%;
 }
 
 @media (max-width: 600px) {
