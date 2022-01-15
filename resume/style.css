@@ -15,12 +15,12 @@ main {
   width: 550pt; 
   height: 600pt;
   margin: auto;
-  grid-column-gap: 7pt;
-  grid-row-gap: 2pt;
+  grid-column-gap: 10pt;
   justify-content: space-evenly;
   font-family: 'Press Start 2P', cursive;
   font-size: 12px;
   grid-area: main;
+  
 
 }
 
@@ -30,6 +30,7 @@ main {
   justify-content: center;
   align-items: center;
   grid-area: toptxt;
+  
 }
 
 
@@ -65,13 +66,21 @@ p
 .left
 {
   background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
+  border-color: black ;
   text-align: center;
   padding-top: 1px;
   margin-top: 12pt;
   margin-left: 2pt;
   font-size: 10px;
   grid-area: left;
+  border-style: hidden;
+  border-width: 0px;
+  border-top-color: lighten(#000, 20%);
+  border-right-color: lighten(#000, 0%);
+  border-bottom-color: lighten(#000, 20%);
+  border-left-color: lighten(#000, 0%);
+  box-shadow: 2px 2px 4px rgba(0,0,0,.6);
+  
 
 }
 
@@ -85,6 +94,13 @@ p
   padding-left: 10pt;
   margin-top: 12pt;
   grid-area: right;
+  border-style: hidden;
+  border-width: 0px;
+  border-top-color: lighten(#000, 20%);
+  border-right-color: lighten(#000, 0%);
+  border-bottom-color: lighten(#000, 20%);
+  border-left-color: lighten(#000, 0%);
+  box-shadow: 2px 2px 4px rgba(0,0,0,.6);
 }
 image {
   grid-area: image;
