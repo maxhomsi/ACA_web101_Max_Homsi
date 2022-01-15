@@ -125,6 +125,8 @@ element {
 @media (max-width: 600px) {
   main {
     display: grid;
+    background-color: white;
+    background-size: auto auto;
    grid-template-rows: 1fr ;
    grid-template-areas:
      "image"
