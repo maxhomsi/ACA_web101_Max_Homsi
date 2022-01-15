@@ -1,9 +1,9 @@
 body {
   margin: auto;
-  background-image: url(https://i.postimg.cc/kX8MVYqY/mario-gif-by-ivanrussiansky-d9f6x59.gif);
-  background-size: cover;
+  background-image: url("test.gif");
+  background-size: 1010pt 600pt;
   background-repeat: no-repeat;
-  background-attachment: fixed
+ 
  
 }
 main {
