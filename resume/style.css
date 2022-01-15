@@ -1,9 +1,8 @@
 body {
   margin: auto;
-  background-image: url("test.gif");
-  background-size: 1010pt 600pt;
+  background-image: url("fundo.jpg");
   background-repeat: no-repeat;
- 
+  background-size: cover;
  
 }
 main {
