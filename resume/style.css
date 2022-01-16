@@ -65,6 +65,7 @@ p { font-style: normal;
 
 .left
 {
+  opacity: 0.8;
   background-color: rgb(0, 0, 0);
   border-color: black ;
   text-align: center;
@@ -86,6 +87,7 @@ p { font-style: normal;
 
 .rightcolumn
 {
+  opacity: 0.8;
   background-color: rgb(0, 0, 0);
   width: auto;
   margin: 1pt;
