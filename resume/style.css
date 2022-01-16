@@ -2,7 +2,7 @@ body {
   margin: auto;
   background-image: url("fundo.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
  
 }
 main {
@@ -144,6 +144,8 @@ img {
 
 @media (max-width: 600px) {
   main {
+   margin: auto;
+    align-items: center;
     display: grid;
     background-color: white;
     background-size: auto auto;
