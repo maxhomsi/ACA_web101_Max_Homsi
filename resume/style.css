@@ -81,6 +81,7 @@ p { font-style: normal;
   border-bottom-color: lighten(#000, 20%);
   border-left-color: lighten(#000, 0%);
   box-shadow: 2px 2px 4px rgba(0,0,0,.6);
+  border-radius: 2%;
   
 
 }
@@ -102,6 +103,7 @@ p { font-style: normal;
   border-right-color: lighten(#000, 0%);
   border-bottom-color: lighten(#000, 20%);
   border-left-color: lighten(#000, 0%);
+  border-radius: 2%;
   box-shadow: 2px 2px 4px rgba(0,0,0,.6);
 }
 image {
