@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+	height: 100%; 
+	font-family: 'Noto Sans', sans-serif; 
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+ .age{
+	color: #0e0e0e;  
+    display: flex
+	
+
+}
+    
+.contact_form{	
+	width: 450px; 
+  height: auto;
+  margin: 80px auto;
+	border-radius: 10px; 
+	text-align: left; 
+	padding-top: 30px;
+	padding-bottom: 2px;  
+  background-color: #fbfbfb; 
+  padding-left: 50px;
+   
+}
+
+
+input{
+	background-color: #fbfbfb; 
+	height: 20px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #120633; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+}
+textarea{
+  background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ec576b; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+	float: center; 	
+}
+
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #ec576b; 
+	border-color: #ec576b; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+	color: #fff; 
+}
+
+
+span{
+	color: #ec576b; 
+}
+
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+
+    
+    
+}
+
+
+h1{
+	font-size: 35px;  
+	text-align: center; 
+	padding-bottom: 20px; 
+	color: #ec576b;
+}
+
+
+h3{
+	font-size: 14px; 
+	padding-bottom: -30px;
+	color: #0e0e0e;   
+}
+
+
+p{
+	font-size: 14px; 
+	color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
