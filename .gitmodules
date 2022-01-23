@@ -1,4 +1,4 @@
 [submodule "path_to_submodule"] 
-  path = maxhomsi/First-Responsive-Website
+  path = https://github.com/maxhomsi/First-Responsive-Website
 
   url = https://github.com/maxhomsi/ACA_web101_Max_Homsi
