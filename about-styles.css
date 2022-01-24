@@ -34,49 +34,162 @@ main {
        
        
        grid-area: topleft;
-       background-color: blue;
-   } 
+       background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+   
 
 .topmiddle {
    
     grid-area: topmiddle;
-    background-color: blueviolet;
-}
+    background: linear-gradient(-45deg, #cfdd07, #68e04a, #23a6d5, #a81fe7);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 .topright {
-    
- background-color: brown;
+  
     grid-area: topright;
-} 
+    background: linear-gradient(-45deg, #fa6a3e, #b399a3, #74888f, #200be0);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 .middleleft {
 
- background-color: burlywood;
     grid-area: middleleft;
+    background: linear-gradient(-45deg, #f70000, #19d6bd, #6a0a77, #d61094);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  
 } 
 
 .middlemiddle {
-background-color: crimson;
  grid-area: middlemiddle;
+ background-color: black;
+ color: white;
 }
 .middleright {
-
-background-color: green;
  grid-area: middleright;
+ background: linear-gradient(-45deg, #16ff0e, #6da38a, #075a1c, #23d5ab);
+ background-size: 400% 400%;
+ animation: gradient 5s ease infinite;
+ 
+}
+@keyframes gradient {
+ 0% {
+   background-position: 0% 50%;
+ }
+ 50% {
+   background-position: 100% 50%;
+ }
+ 100% {
+   background-position: 0% 50%;
+ }
 } 
 .bottomleft {
-  
-background-color: gray;
     grid-area: bottomleft;
+    background: linear-gradient(-45deg, #a16350, #1f6e57, #cf6371, #11d4a7);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
 } 
 
 .bottommiddle {
 
-background-color: rgb(18, 141, 241);
  grid-area: bottommiddle;
+ background: linear-gradient(-45deg, #92807b, #ad426b, #23d52c, #5223d5);
+ background-size: 400% 400%;
+ animation: gradient 5s ease infinite;
+ 
+}
+@keyframes gradient {
+ 0% {
+   background-position: 0% 50%;
+ }
+ 50% {
+   background-position: 100% 50%;
+ }
+ 100% {
+   background-position: 0% 50%;
+ }
 }
 .bottomright {
 
  grid-area: bottomright;
- background-color: cadetblue;
+ background: linear-gradient(-45deg, #5fee52, #3cbfe7, #d58223, #d523cc);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
 } 
 h1 {
     text-align: center;
