@@ -31,7 +31,7 @@ main {
    }
   
    .topleft {
-       
+       border-radius: 5%;
        
        grid-area: topleft;
        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -53,7 +53,7 @@ main {
    
 
 .topmiddle {
-   
+  border-radius: 5%;
     grid-area: topmiddle;
     background: linear-gradient(-45deg, #cfdd07, #68e04a, #23a6d5, #a81fe7);
 	background-size: 400% 400%;
@@ -72,7 +72,7 @@ main {
     }
   }
 .topright {
-  
+  border-radius: 5%;
     grid-area: topright;
     background: linear-gradient(-45deg, #fa6a3e, #b399a3, #74888f, #200be0);
 	background-size: 400% 400%;
@@ -91,7 +91,7 @@ main {
     }
   }
 .middleleft {
-
+  border-radius: 5%;
     grid-area: middleleft;
     background: linear-gradient(-45deg, #f70000, #19d6bd, #6a0a77, #d61094);
 	background-size: 400% 400%;
@@ -115,9 +115,11 @@ main {
  grid-area: middlemiddle;
  background-color: black;
  color: white;
+ border-radius: 5%;
 }
 .middleright {
  grid-area: middleright;
+ border-radius: 5%;
  background: linear-gradient(-45deg, #16ff0e, #6da38a, #075a1c, #23d5ab);
  background-size: 400% 400%;
  animation: gradient 5s ease infinite;
@@ -135,6 +137,7 @@ main {
  }
 } 
 .bottomleft {
+  border-radius: 5%;
     grid-area: bottomleft;
     background: linear-gradient(-45deg, #a16350, #1f6e57, #cf6371, #11d4a7);
 	background-size: 400% 400%;
@@ -154,7 +157,7 @@ main {
 } 
 
 .bottommiddle {
-
+  border-radius: 5%;
  grid-area: bottommiddle;
  background: linear-gradient(-45deg, #92807b, #ad426b, #23d52c, #5223d5);
  background-size: 400% 400%;
@@ -173,7 +176,7 @@ main {
  }
 }
 .bottomright {
-
+  border-radius: 5%;
  grid-area: bottomright;
  background: linear-gradient(-45deg, #5fee52, #3cbfe7, #d58223, #d523cc);
 	background-size: 400% 400%;
