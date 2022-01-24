@@ -36,7 +36,6 @@ main {
 
 .topmiddle {
    
-    font-size: 10px;
     grid-area: topmiddle;
     background-color: blueviolet;
 }
@@ -91,6 +90,7 @@ h1 {
     body{
         margin: auto;
         background-image: url(polka2.jpg);
+        padding: 2em;
   
     }
       main {
@@ -100,7 +100,7 @@ h1 {
       justify-content: space-evenly;
       grid-template-areas:
       "topleft topmiddle "
-      "middlemiddle middleleft "
+      "middlemiddle middleleft"
       "bottomleft bottommiddle"
     }
 
@@ -115,12 +115,13 @@ h1 {
         font-family: 'Poppins', sans-serif;
         padding: 100px 0 0 0;
     }
-       
+}
        @media (max-width: 650px) {
   
         body{
             margin: auto;
             background-image: url(polka3.jpg);
+            padding: 1em;
         }
           main {
        
@@ -130,7 +131,7 @@ h1 {
           grid-template-areas:
           "topmiddle "
           "middlemiddle "
-          "bottommiddle"
+          "bottomleft"
         }
         h1 {
             text-align: center;
@@ -143,3 +144,4 @@ h1 {
             width: 230px;
             height: 230px;
            }
+        }
