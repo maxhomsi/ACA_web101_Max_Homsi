@@ -20,7 +20,7 @@ main {
     grid-template-areas:
     "topleft topmiddle topright"
     "middleleft middlemiddle middleright"
-    "bottomleft bottommiddle bottomright"
+    "bottomleft bottommiddle bottomright";
 
 }
    
@@ -222,6 +222,8 @@ h1 {
       "topleft topmiddle "
       "middlemiddle middleleft"
       "bottomleft bottommiddle"
+      "topright middleright"
+      "bottomright ...";
     }
 
        h1 {
@@ -245,9 +247,15 @@ h1 {
           display: grid;
           
           grid-template-areas:
-          "topmiddle "
-          "middlemiddle "
+          "topleft" 
+          "topmiddle"
+           "topright"
+          "middleleft"
+           "middlemiddle"
+            "middleright"
           "bottomleft"
+           "bottommiddle"
+            "bottomright";;
         }
         h1 {
             text-align: center;
