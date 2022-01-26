@@ -7,21 +7,37 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="sayHello();">Click Me</button>
-    <button onclick="sayHi();">Click Me Too</button>
-   <script>
-     function sayHello(){ alert('Hello!') };
-     function sayHi(){ console.log('Hi, Console.log Method!') };
-   </script>
+  <button onclick="sayHello();">Click Me</button>
+  <button onclick="sayHi();">Click Me Too</button>
+  <button onclick="openANewWindow();">Open</button>
 
-<input value="" onkeyup="setValue(this.value)"/>
+  <script>
+    let secondWindow;
 
-<script>
-  // and more JS code is here...
+    function sayHello(){ alert('Hello, Window.alert Method!') };
+    function sayHi(){ console.log('Hi, Console.log Method!') };
+    function openANewWindow() {
+      secondWindow = window.open("", "myWindow", "width=400, height=300");
+    }
 
-  function setValue(input) {
-    console.log({input})
-  }
-</script>
-   </body>
+  </script>
+  <button onclick="closeTheNewWindow();">Close</button>
+
+  <script>
+    function closeTheNewWindow() {
+      secondWindow.close();
+    }
+  </script>
+  <button onclick="createNewObject();">Create New Object</button>
+  <script>
+    function createNewObject(){ console.log("TESTING")};
+    function createNewObject() {
+     let newObject = document.createElement("H3")
+     let text = document.createTextNode(usersInput)
+
+     newObject.appendChild(text)
+     document.body.appendChild(newObject)
+    }
+  </script>
+</body>
 </html>
