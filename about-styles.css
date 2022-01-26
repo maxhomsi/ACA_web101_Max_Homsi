@@ -198,7 +198,7 @@ h1 {
     text-align: center;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    padding: 120px 0 0 0;
+    margin-top: 120px;
    
 
 }
@@ -214,54 +214,66 @@ h1 {
   
     }
       main {
-      height: auto;
-      margin-left: 90px;
+   
+      width: 100px;
+      height: 100px;
+      
       display: grid;
       justify-content: space-evenly;
+      grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
       grid-template-areas:
-      "topleft topmiddle "
-      "middlemiddle middleleft"
-      "bottomleft bottommiddle"
-      "topright middleright"
-      "bottomright ...";
+      "topleft topmiddle topright"
+      "middleleft middlemiddle middleright"
+      "bottomleft bottommiddle bottomright"
     }
+    img {
 
+      width: 150px;
+      height: 150px;
+    }
        h1 {
         text-align: center;
-        font-size: 20px;
+        font-size: 15px;
         font-family: 'Poppins', sans-serif;
-        padding: 110px 0 0 0;
+        margin-top: 50px;
     }
-}
+  }
        @media (max-width: 650px) {
   
         body{
             margin: auto;
+            height: auto;
+            width: auto;
             background-image: url(polka3.jpg);
-            padding: 1em;
-            height: fit-content;
+           
+ 
         }
           main {
-       
-          margin-left: 90px;
+      
           display: grid;
-          
-          grid-template-areas:
-          "topleft" 
-          "topmiddle"
-           "topright"
-          "middleleft"
-           "middlemiddle"
-            "middleright"
-          "bottomleft"
-           "bottommiddle"
-            "bottomright";;
+          width: 100px;
+          height: 100px;
+          grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+    grid-column-gap: 3pt;
+    grid-row-gap: 3pt;
+      grid-template-areas:
+      "topleft topmiddle topright"
+      "middleleft middlemiddle middleright"
+      "bottomleft bottommiddle bottomright"
+    }
+    img {
+
+      width: 120px;
+      height: 120px;
+    }
         }
         h1 {
             text-align: center;
             font-size: 20px;
             font-family: 'Poppins', sans-serif;
-            padding: 110px 0 0 0;
+            margin-top: 30px;
         }
            
         }
