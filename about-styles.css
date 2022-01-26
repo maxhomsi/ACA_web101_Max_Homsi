@@ -196,9 +196,12 @@ main {
 } 
 h1 {
     text-align: center;
+
+position: sticky;
+
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    margin-top: 120px;
+    
    
 
 }
@@ -220,8 +223,8 @@ h1 {
       
       display: grid;
       justify-content: space-evenly;
-      grid-template-columns: 150px 150px 150px;
-    grid-template-rows: 150px 150px 150px;
+      grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
       grid-template-areas:
       "topleft topmiddle topright"
       "middleleft middlemiddle middleright"
@@ -229,8 +232,8 @@ h1 {
     }
     img {
 
-      width: 150px;
-      height: 150px;
+      width: 200px;
+      height: 200px;
     }
        h1 {
         text-align: center;
@@ -254,8 +257,8 @@ h1 {
           display: grid;
           width: 100px;
           height: 100px;
-          grid-template-columns: 120px 120px 120px;
-    grid-template-rows: 120px 120px 120px;
+          grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
     grid-column-gap: 3pt;
     grid-row-gap: 3pt;
       grid-template-areas:
@@ -265,8 +268,8 @@ h1 {
     }
     img {
 
-      width: 120px;
-      height: 120px;
+      width: 150px;
+      height: 150px;
     }
         }
         h1 {
@@ -276,4 +279,4 @@ h1 {
             margin-top: 30px;
         }
            
-        }
+        
